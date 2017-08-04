@@ -13,6 +13,30 @@ public class MainActivity extends AppCompatActivity {
     private MapView mapView;
 
     @Override
+    protected void onStart(){
+        super.onStart();
+        mapView.onStart();
+    }
+
+    @Override
+    protected void onResume(){
+        super.onResume();
+        mapView.onResume();
+    }
+
+    @Override
+    protected void onDestroy(){
+        super.onDestroy();
+        mapView.onDestroy();
+    }
+
+    @Override
+    public void onLowMemory(){
+        super.onLowMemory();
+        mapView.onLowMemory();
+    }
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         //ADDED TO MAKE MAPBOX WORK
