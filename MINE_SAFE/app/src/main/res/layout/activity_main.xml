@@ -14,7 +14,6 @@
     app:mapbox_cameraTargetLng="-73.744354"
     app:mapbox_cameraZoom="12"
     app:mapbox_styleUrl="@string/mapbox_style_light"/>
-    <!--app:mapbox_styleUrl="@string/mapbox_style_satellite"-->
     />
 
 </RelativeLayout>
