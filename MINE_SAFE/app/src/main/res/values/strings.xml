@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Minesafe</string>
+    <string name="app_name">Mine Safe</string>
     //ADDED TO MAKE MAPBOX WORK
     <string name="access_token">pk.eyJ1IjoiY2FybG9zYWJhdXRpIiwiYSI6ImNqNWxkMGV2ZzMzcW0zM25xMDZwZmNoeWcifQ.Wv4MoyKShvpMeuSqIsb2pQ</string>
     //END
