@@ -10,8 +10,8 @@
     android:id="@+id/mapView"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    app:mapbox_cameraZoom="15"
-    app:mapbox_styleUrl="@string/mapbox_style_mapbox_streets"/>
+    app:mapbox_cameraZoom="15"/>
+    <!--app:mapbox_styleUrl="@string/mapbox_style_mapbox_streets"-->
 
 
 </RelativeLayout>

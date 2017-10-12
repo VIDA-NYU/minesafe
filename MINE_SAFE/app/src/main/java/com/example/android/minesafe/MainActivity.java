@@ -63,6 +63,7 @@ public class MainActivity extends AppCompatActivity implements MapboxMap.OnMyLoc
             @Override
             public void onMapReady(MapboxMap mapboxMap) {
                 map = mapboxMap;
+                mapboxMap.setStyleUrl("mapbox://styles/carlosabauti/cj6znm3w26gb32smw5cpr3js3");
 
                 mapboxMap.setOnMyLocationChangeListener(MainActivity.this);
                 mapboxMap.setMyLocationEnabled(true);
